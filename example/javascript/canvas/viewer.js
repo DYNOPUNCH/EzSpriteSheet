@@ -205,3 +205,10 @@ function button_grid()
 
 } ());
 
+// Event listeners
+$('#previous').on('click', function() {button_prev()});
+$('#next').on('click', function() {button_next()});
+$('#mirrorx').on('click', function() {button_mirrorX()});
+$('#mirrory').on('click', function() {button_mirrorY()});
+$('#grid').on('click', function() {button_grid()});
+
