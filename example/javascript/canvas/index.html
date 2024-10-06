@@ -24,18 +24,26 @@
 	<p class="text-center">Animation Name: <b id="animName"></b></p>
 	<br>
 
-	<div class="container d-flex justify-content-center ">
-		<button id="previous" class="btn btn-primary mx-2">Previous</button>
-		<button id="next" class="btn btn-primary mx-2">Next</button>
-		<br/>
-		<button id="mirrorx" class="btn btn-primary mx-2">X Mirror</button>
-		<button id="mirrory" class="btn btn-primary mx-2">Y Mirror</button>
-		<button id="grid" class="btn btn-primary mx-2">Grid</button>
+	<div class="container d-flex justify-content-center p-2 ">
+		<button id="previous" class="btn btn-primary mx-2 w-50">Previous</button>
+		<button id="next" class="btn btn-primary mx-2 w-50">Next</button>
+	</div>
+	<div class="container d-flex justify-content-center p-2">
+	<div class="w-50 mx-2 d-flex justify-content-center">
+		<button id="mirrorx" class="btn btn-primary me-2 w-50">X Mirror</button>
+		<button id="mirrory" class="btn btn-primary ms-2 w-50">Y Mirror</button>
+	</div>
+		<button id="grid" class="btn btn-warning mx-2 w-50">Grid</button>
+	</div>
 
 	</div>
 	<hr>
 	<br>
 	<h2 class="text-center">Sprite Sheets</h2>
+
+	<div id="sprites" class="container d-flex justify-content-center">
+
+	</div>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 		<script> window.jQuery || document.write('<script src="node_modules/jquery/dist/jquery.min.js" async defer><\/script>') </script>
